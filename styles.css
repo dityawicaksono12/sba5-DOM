@@ -1,0 +1,45 @@
+form {
+    margin-bottom: 20px;
+  }
+
+  input.custom-input {
+    font-family: 'Special Elite', monospace;
+    width: 60%;
+  }
+
+  @media (max-width: 600px) {
+    input.custom-input {
+      width: 100%;
+    }
+  }
+
+  :root {
+    --main-font: 'Special Elite', monospace;
+    --spacing: 10px;
+  }
+  
+  body {
+    font-family: var(--main-font);
+  }
+  
+  input.custom-input {
+    margin-bottom: var(--spacing);
+  }
+
+  button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+
+.form-container input,
+.form-container textarea {
+  display: block;
+  margin-bottom: 12px;
+}
